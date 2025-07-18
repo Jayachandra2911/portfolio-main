@@ -11,11 +11,11 @@ const dummyProjects = [
     description:
       "Solar Calculator is a smart, interactive web-based platform designed to help users calculate the optimal size and placement of solar panels for their homes. The tool takes into account various factors such as location, energy consumption, and budget to provide personalized recommendations. Users can input their specific requirements and receive a detailed report outlining the best solar solutions for their needs.",
     screenshots: [
-                  
+
     ],
     tech: ["typeScript",  "tailwind css", ],
-    github: "https://github.com/riyaz-shaik-16/recruitment-bot",
-    demo: "https://recruitment-bot-alpha.vercel.app/",
+    github: "https://github.com/Jayachandra2911/SolarCalculator",
+    demo: "https://solar-cost-estimater.netlify.app/",
   },
   
 ];

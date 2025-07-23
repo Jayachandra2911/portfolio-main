@@ -109,7 +109,7 @@ const Hero = () => {
             </motion.span>
           </motion.h1>
           <motion.h1 className="text-3xl italic">
-            Full Stack Developer
+            Web Developer
           </motion.h1>
 
           <motion.p

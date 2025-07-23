@@ -11,13 +11,32 @@ const dummyProjects = [
     description:
       "Solar Calculator is a smart, interactive web-based platform designed to help users calculate the optimal size and placement of solar panels for their homes. The tool takes into account various factors such as location, energy consumption, and budget to provide personalized recommendations. Users can input their specific requirements and receive a detailed report outlining the best solar solutions for their needs.",
     screenshots: [
-
+                "https://res.cloudinary.com/dz43rbtgd/image/upload/v1752858586/Screenshot_2025-06-23_192208_qpdjgc.png",
+                "https://res.cloudinary.com/dz43rbtgd/image/upload/v1752892524/Screenshot_2025-07-19_080225_dmogyc.png",
+                "https://res.cloudinary.com/dz43rbtgd/image/upload/v1752892523/Screenshot_2025-07-19_080247_mwfjoj.png",
+                "https://res.cloudinary.com/dz43rbtgd/image/upload/v1752893247/Screenshot_2025-07-19_081642_inhsqs.png",
+                "https://res.cloudinary.com/dz43rbtgd/image/upload/v1752892524/Screenshot_2025-07-19_080407_iiumr6.png",
+                "https://res.cloudinary.com/dz43rbtgd/image/upload/v1752892544/Screenshot_2025-07-19_080422_kgxpca.png"
     ],
-    tech: ["typeScript",  "tailwind css", ],
+    tech: ["typeScript", "tailwind css"],
     github: "https://github.com/Jayachandra2911/SolarCalculator",
     demo: "https://solar-cost-estimater.netlify.app/",
   },
-  
+  {
+  title: "Live Resume",
+    year: "2025",
+    featured: false,
+    status: "completed",
+    description:
+      "Live Resume is a dynamic, web-based application that allows users to see my professional journey in real-time. It showcases my skills, projects, and experiences in an interactive format, providing a comprehensive overview of my career. The application is designed to be visually appealing and easy to navigate, making it a perfect tool for potential employers or collaborators to understand my professional background.",
+    screenshots: [
+                "https://res.cloudinary.com/dz43rbtgd/image/upload/v1753292421/Screenshot_2025-07-23_230545_gypjdz.png",
+                "https://res.cloudinary.com/dz43rbtgd/image/upload/v1753292421/Screenshot_2025-07-23_230610_yvvdpn.png"
+    ],
+    tech: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Jayachandra2911/LiveResume",
+    demo: "https://jc-resume.netlify.app/",
+  },
 ];
 
 const Projects = () => {
@@ -39,3 +58,4 @@ const Projects = () => {
 };
 
 export default Projects;
+

@@ -13,6 +13,9 @@ import react from "./react.svg";
 import redis from "./redis.svg";
 import socketio from "./socketio.svg";
 import tailwind from "./tailwind.svg";
+import typescript from "./typescript.svg";
+import clickup from "./clickup.svg";
+import nextjs from "./nextjs.svg";
 
 const skills = [
   { name: "Bootstrap", image: bootstrap },
@@ -30,6 +33,9 @@ const skills = [
   { name: "Redis", image: redis },
   { name: "Socket.IO", image: socketio },
   { name: "Tailwind CSS", image: tailwind },
+  { name: "TypeScript", image: typescript },
+  { name: "ClickUp", image: clickup },
+  { name: "Next.js", image: nextjs },
 ];
 
 export default skills;

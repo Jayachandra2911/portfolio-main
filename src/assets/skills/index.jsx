@@ -16,6 +16,7 @@ import tailwind from "./tailwind.svg";
 import typescript from "./typescript.svg";
 import clickup from "./clickup.svg";
 import nextjs from "./nextjs.svg";
+import wix from "./wix.svg";
 
 const skills = [
   { name: "Bootstrap", image: bootstrap },
@@ -36,6 +37,8 @@ const skills = [
   { name: "TypeScript", image: typescript },
   { name: "ClickUp", image: clickup },
   { name: "Next.js", image: nextjs },
+  { name: "Wix", image: wix },
+
 ];
 
 export default skills;

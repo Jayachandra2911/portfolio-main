@@ -37,6 +37,21 @@ const dummyProjects = [
     github: "https://github.com/Jayachandra2911/LiveResume",
     demo: "https://jc-resume.netlify.app/",
   },
+  {
+  title: "Personal Landing Page - Wix",
+    year: "2025",
+    featured: false,
+    status: "completed",
+    description:
+      "Personal Landing Page - Wix is a dynamic, where users can see the services I offer, my portfolio, and a contact form for inquiries. The page is designed to be visually appealing and user-friendly, making it easy for visitors to navigate and find the information they need.",
+    screenshots: [
+                  "https://res.cloudinary.com/dz43rbtgd/image/upload/v1754229288/Screenshot_2025-08-03_192233_sziawi.png",
+                  //"https://res.cloudinary.com/dz43rbtgd/image/upload/v1754229296/Screenshot_2025-08-03_192319_bioyr3.png",
+                  //"https://res.cloudinary.com/dz43rbtgd/image/upload/v1754229296/Screenshot_2025-08-03_192409_usi3mb.png"
+                ],
+    tech: ["Wix"],
+    demo: "https://jayachandra2911.wixstudio.com/jclandingpage",
+  },
 ];
 
 const Projects = () => {

@@ -1,4 +1,8 @@
-import { Menubar, MenubarMenu, MenubarTrigger } from "@/components/ui/menubar";
+import {
+  Menubar,
+  MenubarMenu,
+  MenubarTrigger,
+} from "@/components/ui/menubar";
 import { ModeToggle } from "./mode-toggle";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
@@ -97,6 +101,50 @@ const Navbar = () => {
               : "bg-white/95 dark:bg-black/95 backdrop-blur-sm border-zinc-200/50 dark:border-zinc-700/50"
           } hover:shadow-2xl hover:border-zinc-300/70 dark:hover:border-zinc-600/70`}
         >
+          <MenubarMenu>
+            <MenubarTrigger
+              className="flex items-center gap-2 text-sm font-medium transition-colors relative overflow-hidden rounded-lg px-3 py-2"
+              onClick={() => window.location.hash = "#home"}
+            >
+              Home
+            </MenubarTrigger>
+          </MenubarMenu>
+          <MenubarMenu>
+            <MenubarTrigger
+              className="flex items-center gap-2 text-sm font-medium transition-colors relative overflow-hidden rounded-lg px-3 py-2"
+              onClick={() => window.location.hash = "#experience"}
+            >
+              Experience
+            </MenubarTrigger>
+          </MenubarMenu>
+          <MenubarMenu>
+            <MenubarTrigger
+              className="flex items-center gap-2 text-sm font-medium transition-colors relative overflow-hidden rounded-lg px-3 py-2"
+              onClick={() => window.location.hash = "#skills"}
+            >
+              Skills
+            </MenubarTrigger>
+          </MenubarMenu>
+
+          <MenubarMenu>
+            <MenubarTrigger
+              className="flex items-center gap-2 text-sm font-medium transition-colors relative overflow-hidden rounded-lg px-3 py-2"
+              onClick={() => window.location.hash = "#projects"}
+            >
+              Projects
+            </MenubarTrigger>
+          </MenubarMenu>
+
+          <MenubarMenu>
+            <MenubarTrigger
+              className="flex items-center gap-2 text-sm font-medium transition-colors relative overflow-hidden rounded-lg px-3 py-2"
+              onClick={() => window.location.hash = "#contact"}
+            >
+              Contact
+            </MenubarTrigger>
+          </MenubarMenu>
+
+          
 
           <MenubarMenu>
             <motion.div variants={itemVariants}>

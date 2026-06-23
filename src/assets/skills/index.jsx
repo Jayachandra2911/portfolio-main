@@ -17,6 +17,7 @@ import typescript from "./typescript.svg";
 import clickup from "./clickup.svg";
 import nextjs from "./nextjs.svg";
 import wix from "./wix.svg";
+import wixstudio from "./wixstudio.svg";
 
 const skills = [
   { name: "Bootstrap", image: bootstrap },
@@ -38,6 +39,7 @@ const skills = [
   { name: "ClickUp", image: clickup },
   { name: "Next.js", image: nextjs },
   { name: "Wix", image: wix },
+  { name: "Wix Studio", image: wixstudio },
 
 ];
 

@@ -13,7 +13,7 @@ const Skills = () => {
   const chunkedSkills = chunkArray(skills, 5);
 
   return (
-    <section className="flex w-full justify-center items-center flex-col gap-10 py-16 overflow-hidden relative">
+    <section id="skills" className="flex w-full justify-center items-center flex-col gap-10 py-16 overflow-hidden relative">
       <style>
         {`
           @keyframes scroll {

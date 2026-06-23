@@ -79,7 +79,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="flex md:mb-12 flex-col justify-center items-center sm:flex-row">
+    <div id="home" className="flex md:mb-12 flex-col justify-center items-center sm:flex-row">
       <motion.section
         variants={containerVariants}
         initial="hidden"
@@ -116,7 +116,7 @@ const Hero = () => {
             variants={textVariants}
             className="text-base md:text-lg text-muted-foreground"
           >
-            I build full-stack web experiences — where frontend animations meet backend logic.
+            I build full-stack web experiences - where frontend animations meet backend logic.
           </motion.p>
 
           <motion.div
@@ -138,7 +138,7 @@ const Hero = () => {
               <div
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/18hpc4JOND-eYu0LwWsmGZlRjHAk5D5dk/view?usp=drive_link"
+                    "https://jc-resume.netlify.app/"
                   )
                 }
                 className="relative z-10 px-4 py-3 flex justify-center items-center gap-2 rounded-md text-white transition-all duration-200"
